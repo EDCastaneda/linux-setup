@@ -100,6 +100,43 @@ From the official [documentation](https://git-scm.com/book/en/v2/Getting-Started
 sudo apt install git-all
 ```
 
+### PostgreSQL
+
+From installation [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart).
+
+```bash 
+# install package
+sudo apt install postgresql postgresql-contrib
+
+# test default postgres user
+sudo -u postgres psql
+
+# exit db session
+postgres=# \q
+```
+
+To add new user to use the db
+
+```bash 
+sudo -u postgres createuser --interactive
+
+# or within the session
+postgres=# createuser --interactive
+
+# the output within the session
+postgres=# Enter name of role to add: new_user
+postgres=# Shall the new role be a superuser? (y/n) y
+```
+
+To create a new db
+
+```bash 
+sudo -u postgres createdb new_db_name
+
+# or within the session
+postgres=# createdb new_db_name
+```
+
 ### Docker
 
 Follow instructions for [docker](https://docs.docker.com/engine/install/ubuntu/) installation.
