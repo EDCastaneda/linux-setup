@@ -63,6 +63,18 @@ find * -name *.py
 sudo versions/1.9.11/lib/conf/gui/linux/prey-config3.py
 ```
 
+## gocryptfs + sirikali
+
+TO encrypt folders follow the [quickstart](https://nuetzlich.net/gocryptfs/quickstart/).
+
+```bash 
+sudo apt install gocryptfs
+```
+
+The GUI is provided by [sirikali](https://github.com/mhogomchungu/sirikali).
+
+
+
 ## System Tools
 
 ### Docker
