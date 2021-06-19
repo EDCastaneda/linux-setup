@@ -65,6 +65,12 @@ sudo versions/1.9.11/lib/conf/gui/linux/prey-config3.py
 
 ## System Tools
 
+### Docker
+
+Follow instructions for [docker](https://docs.docker.com/engine/install/ubuntu/) installation.
+
+Once Docker is up and running, install [docker-compose](https://docs.docker.com/compose/install/).
+
 ### Terminator
 
 ```bash 
@@ -99,6 +105,18 @@ From the official [documentation](https://git-scm.com/book/en/v2/Getting-Started
 ```bash
 sudo apt install git-all
 ```
+
+## Node.js
+
+Following the tutorial by [digitalocean](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04).
+
+```bash
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+```
+
+## Data Bases
 
 ### PostgreSQL
 
@@ -136,12 +154,6 @@ sudo -u postgres createdb new_db_name
 # or within the session
 postgres=# createdb new_db_name
 ```
-
-### Docker
-
-Follow instructions for [docker](https://docs.docker.com/engine/install/ubuntu/) installation.
-
-Once Docker is up and running, install [docker-compose](https://docs.docker.com/compose/install/).
 
 ### MongoDB
 
