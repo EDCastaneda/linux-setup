@@ -1,4 +1,4 @@
-# Crypto Scanner
+# MongoDB
 
 ## Set up MongoDB
 
