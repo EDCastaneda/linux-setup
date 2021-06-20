@@ -109,6 +109,12 @@ To work with the compass tool
 $ mongodb-compass
 ```
 
+To set a basic trusted connection use standard port `27017`
+
+```bash
+mongodb://127.0.0.1:27017/
+```
+
 ## Python integration
 
 Install API
